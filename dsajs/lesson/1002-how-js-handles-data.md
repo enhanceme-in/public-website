@@ -31,7 +31,7 @@ Primitive values are **immutable** (cannot be changed) and represent a single, s
 
 ### 2.2 The Key Difference: Primitives vs. References
 
-The most critical concept to grasp about JavaScript data is **how** these two categories (Primitives and Non-Primitives) are stored and accessed in memory. This directly impacts how variables behave when you copy or pass them around in your code.
+The most critical concept to grasp about JavaScript data is **how** these two categories (Primitives and Non-Primitives) are stored and accessed in [memory](/lesson/kb/computer_memory). This directly impacts how variables behave when you copy or pass them around in your code.
 
 #### 2.2.1 Primitives: Stored by Value
 
@@ -57,13 +57,11 @@ console.log(scoreB); // Output: 100 (It remains 100)
 
 Non-primitive types, often called **Reference Types**, include:
 
-- **`Object`** (The most fundamental reference type)
-- **`Array`** (A type of object used for ordered lists)
-- **`Function`** (A type of object that can be called)
+- **`Object`**: A collection of key-value pairs, like a box that holds different labeled items.
+- **`Array`**: An ordered list of values, like a row of boxes, each with a number.
+- **`Function`**: A reusable block of code that can be called to perform a task, like a recipe you can use again and again.
 
 ![](/dsajs/lesson/images/js_obj_memory_copy.png)
-
-  <img src="./dsajs/lesson/images/js_obj_memory_copy.png" />
 
 When you work with a reference type:
 
